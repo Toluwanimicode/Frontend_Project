@@ -1,0 +1,15 @@
+.about-informations{
+    display: flex;
+}
+.about-intro{
+    text-align: center;
+    background: #E3D1F3;
+  
+}
+.about-image{
+    margin-top: 20%;
+  }
+.card-about{
+    margin-left: 15%;
+    margin-top: 5%;
+}
