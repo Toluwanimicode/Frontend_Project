@@ -12,9 +12,6 @@ function ImageGrid() {
         <img src={"./images/Gallery/img1.jpg"} alt="Images" width={'420px'} height={'200px'}/>
         <img src={"./images/Gallery/img2.jpg"} alt="Images" width={'400px'}  height={'200px'}/>
         <img src={"./images/Gallery/img3.jpg"} alt="Images" width={'400px'} height={'200px'}  />
-        <img src={"./images/Gallery/img1.jpg"} alt="Images" width={'420px'} height={'200px'}/>
-        <img src={"./images/Gallery/img2.jpg"} alt="Images" width={'400px'}  height={'200px'}/>
-         
       </div>
     </>
   );
