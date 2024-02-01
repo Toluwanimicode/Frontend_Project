@@ -1,0 +1,56 @@
+.admission-intro{
+    color: #9B1DD0;
+}
+/* AdmissionForm.css */
+.admission-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .admission-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .admission-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admission-form label {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.admission-form input,
+.admission-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.admission-form select {
+    appearance: none;
+}
+.admission-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+.admission-form button:hover {
+    background-color: #0056b3;
+}

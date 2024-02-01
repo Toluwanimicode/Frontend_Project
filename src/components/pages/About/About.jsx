@@ -35,9 +35,6 @@ const About = () => {
         />
       </div>
     </div>
-     <div>
-        <MyFooter />
-     </div>
     </>
   )
 }
