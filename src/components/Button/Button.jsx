@@ -1,13 +1,11 @@
+import Button from 'react-bootstrap/Button';
 
-
-import React from 'react';
-
-const Button = ({ children, style, onClick }) => {
+function Btn() {
   return (
-    <button style={style} onClick={onClick}>
-      {children}
-    </button>
+    <>
+      <Button variant="warning">Submit</Button>
+    </>
   );
-};
+}
 
-export default Button;
+export default Btn;

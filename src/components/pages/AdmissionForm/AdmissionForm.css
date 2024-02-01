@@ -4,7 +4,9 @@
 /* AdmissionForm.css */
 .admission-form {
     width: 400px;
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 10%;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;

@@ -5,7 +5,6 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Navigation from '../../Navigation/Navigation';
 import Button from "../../Button/Button"
 import "../Contact/Contact.css"
-import MyFooter from '../../Footer/Footer';
 
 
 function Contact() {
