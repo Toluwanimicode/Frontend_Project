@@ -5,7 +5,6 @@ import  About  from "./components/pages/About/About"
 import Contact from './components/pages/Contact/Contact'
 import Gallery from './components/pages/Gallery/Gallery'
 import SchoolAnthem from './components/pages/SchoolAnthem/SchoolAnthem'
-
 import Admission from './components/pages/Admission/Admission'
 import LoginForm from './components/pages/Login/Login'
 import MyFooter from './components/Footer/Footer'
@@ -26,7 +25,6 @@ return (
       <div>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact/>} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/schoolAnthem" element={<SchoolAnthem />} />
