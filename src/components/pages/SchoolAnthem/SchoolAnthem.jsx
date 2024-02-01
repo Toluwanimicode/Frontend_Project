@@ -1,7 +1,6 @@
 import React from 'react'
-import Navigation from '../../Navigation/Navigation'
-import "../School Anthem/schoolAnthem.css"
-import MyFooter from '../../Footer/Footer'
+import "../SchoolAnthem/schoolAnthem.css"
+
 
 const SchoolAnthem = () => {
   return (
@@ -49,4 +48,4 @@ const SchoolAnthem = () => {
   )
 }
 
-export default SchoolAnthem
+export default SchoolAnthem;

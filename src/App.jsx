@@ -4,7 +4,7 @@ import  Home  from "./components/pages/Home/Home"
 import  About  from "./components/pages/About/About"
 import Contact from './components/pages/Contact/Contact'
 import Gallery from './components/pages/Gallery/Gallery'
-import SchoolAnthem from './components/pages/School Anthem/SchoolAnthem'
+import SchoolAnthem from './components/pages/SchoolAnthem/SchoolAnthem'
 import History from './components/pages/History/History'
 import Admission from './components/pages/Admission/Admission'
 import LoginForm from './components/pages/Login/Login'

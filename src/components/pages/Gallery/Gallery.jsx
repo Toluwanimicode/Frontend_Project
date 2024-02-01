@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../../Navigation/Navigation';
 import ImageGrid from '../../Grid/Grid';
 import "../Gallery/Gallery.css"
 
