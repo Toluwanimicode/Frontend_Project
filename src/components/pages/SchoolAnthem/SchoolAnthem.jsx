@@ -1,5 +1,6 @@
 import React from 'react'
-import "../SchoolAnthem/schoolAnthem.css"
+import "../SchoolAnthem/schoolAnthem.css";
+
 
 
 const SchoolAnthem = () => {
