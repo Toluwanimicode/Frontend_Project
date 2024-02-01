@@ -1,5 +1,5 @@
-import React from 'react'
-import "../SchoolAnthem/schoolAnthem.css";
+import React from 'react';
+import '../SchoolAnthem/schoolAnthem.css';
 
 
 
