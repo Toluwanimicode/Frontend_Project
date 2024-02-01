@@ -1,4 +1,25 @@
+/* Media query for small screens (e.g., smartphones) */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    body {
+      font-size: 14px;
+    }
+  }
 
+  /* Media query for medium-sized screens (e.g., tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens */
+    body {
+      font-size: 16px;
+    }
+}
+  /* Media query for larger screens (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+    body {
+      font-size: 18px;
+    }
+}
 
 
 
