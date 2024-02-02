@@ -22,12 +22,12 @@ return (
       <div>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact/>} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/schoolAnthem" element={<SchoolAnthem />} />
+              <Route path="/Contact" element={<Contact/>} />
+              <Route path="/Gallery" element={<Gallery />} />
+              <Route path="/SchoolAnthem" element={<SchoolAnthem />} />
               <Route path="/aboutUs" element={<About />} />
-              <Route path="/admission" element={<Admission />} />
-              <Route path="/login" element={<LoginForm />} />
+              <Route path="/Admission" element={<Admission />} />
+              <Route path="/Login" element={<LoginForm />} />
             </Routes>
       </div>  
       <div>

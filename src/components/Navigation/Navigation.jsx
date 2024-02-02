@@ -15,19 +15,19 @@ function Navigation() {
           <Nav className="me-auto navbar">
             <Nav.Link href="/">Home</Nav.Link>          
             <NavDropdown href="/academics"  title="About Us" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/aboutUs">About</NavDropdown.Item>
-              <NavDropdown.Item href="/schoolAnthem">School Anthem / Motto</NavDropdown.Item>          
+              <NavDropdown.Item href="/About">About</NavDropdown.Item>
+              <NavDropdown.Item href="/SchoolAnthem">School Anthem / Motto</NavDropdown.Item>          
               <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>                       
             </NavDropdown>       
-            <Nav.Link href="/admission">Admission</Nav.Link>          
+            <Nav.Link href="/Admission">Admission</Nav.Link>          
             <NavDropdown href="/academics"  title="Academics" id="basic-nav-dropdown">
               <NavDropdown.Item href="/news">News</NavDropdown.Item>
               <NavDropdown.Item href="/calendar"> Academic Calendar</NavDropdown.Item>          
               <NavDropdown.Item href="/events">Events</NavDropdown.Item>          
               <NavDropdown.Item href="/teachers">Our Teachers</NavDropdown.Item>          
             </NavDropdown>
-            <Nav.Link href="/login">Login</Nav.Link>       
-            <Nav.Link href="/gallery">Gallery</Nav.Link>       
+            <Nav.Link href="/Login">Login</Nav.Link>       
+            <Nav.Link href="/Gallery">Gallery</Nav.Link>       
           </Nav>
         </Navbar.Collapse>
       </Container>
