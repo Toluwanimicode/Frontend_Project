@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import AdmissionForm from '../AdmissionForm/AdmissionForm'
-import "../Admission/Admission.css"
+import "./Admission.css"
 
 const Admission = () => {
     const [showAdmissionForm, setShowAdmissionForm] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageGrid from '../../Grid/Grid';
-import "../Gallery/Gallery.css"
+import "./Gallery.css"
 
 const Gallery = () => {
 

@@ -1,7 +1,4 @@
-import Btn from '../../Button/Button';
-import Navigation from '../../Navigation/Navigation'
 import Carousels from '../../Carousel/Carousels';
-import MyFooter from '../../Footer/Footer';
 import "../Home/Home.css"
 
 const Home = () => {

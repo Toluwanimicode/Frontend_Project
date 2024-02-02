@@ -2,9 +2,8 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Navigation from '../../Navigation/Navigation';
 import Button from "../../Button/Button"
-import "../Contact/Contact.css"
+import "./Contact.css"
 
 
 function Contact() {

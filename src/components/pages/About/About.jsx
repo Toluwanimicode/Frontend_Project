@@ -1,9 +1,7 @@
 import React from 'react'
-import Navigation from '../../Navigation/Navigation';
 import CardCom from '../../Card/Card';
-import NumberAnimation from '../../Number Animation/NumberAnimation';
-import "../About/About.css"
-import MyFooter from '../../Footer/Footer';
+import "./About.css"
+
 
 const About = () => {
   return (
