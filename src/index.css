@@ -1,2 +1,28 @@
+/* app.css */
 
+/* Default styles for all screen sizes */
+body {
+    font-size: 16px;
+  }
+  
+  /* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+}
+
+/* Media query for screens between 601px and 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 18px;
+    }
+}
+
+  /* Media query for screens larger than 900px */
+@media (min-width: 901px) {
+    body {
+      font-size: 20px;
+    }
+}
 
