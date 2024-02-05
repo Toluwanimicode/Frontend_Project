@@ -120,24 +120,24 @@ const Home = () => {
           </div>
         <section className='testimonial'>
           <div>
-            <h1>Testimonials</h1>
+            <h1 className='testimonial-heading'>Testimonials</h1>
             <div>
               <article>
                 <div>
                   <p> Mountain Top is home away from home for my kids.The Teachers are so amazing and the learning environment is second to none</p>
-                  <h3>Parents</h3>
+                  <h3 className='testimonial-heading'>Parents</h3>
                 </div>
               </article>
               <article>
                 <div>
                   <p> As an alumni of Mountain Top School, I can confidently say that the education and values instilled in me during my time here have had a lasting impact on my life. The rigorous academic curriculum prepared me well for higher education and beyond, while the emphasis on community service and leadership helped shape me into a responsible and compassionate individual. I'm proud to be a graduate of such a distinguished institution </p>
-                  <h3>Students</h3>
+                  <h3 className='testimonial-heading'>Students</h3>
                 </div>
               </article>
               <article>
                 <div>
                   <p> I've attended Mountain Top School for several years now, and it truly feels like a second home to me. The diverse range of extracurricular activities, from sports to arts and beyond, has allowed me to explore my interests and develop new skills. The teachers go above and beyond to ensure we succeed, and the friendships I've made here will last a lifetime </p>
-                  <h3>Students</h3>
+                  <h3 className='testimonial-heading'>Students</h3>
                 </div>
               </article>
             </div>

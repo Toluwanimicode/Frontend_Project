@@ -120,6 +120,9 @@ body {font-family: Verdana, sans-serif;}
   /* Add more styling as needed */
 }
 .testimonial{
-  background-color: #BCA5D7;
+  background-color: white;
   padding: 5%;
+}
+.testimonial-heading{
+  color: #9370DB;
 }
