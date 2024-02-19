@@ -4,9 +4,10 @@
 }
 .prop-image{
     margin-bottom: 10px;
-    width: 95%;
+    width: 105%;
     padding: 30px;
-    size: 200px;
+    margin-top: 50px;
+    
 }
 .intro-word{
     padding-left: 15px;
