@@ -3,6 +3,8 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Button from "../../Button/Button"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faMapLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 import "./Contact.css"
 
 
@@ -59,13 +61,13 @@ function Contact() {
         <h3>Contact Information</h3>
         <ul>
           <li>
-              <i class="bi bi-geo-alt-fill"></i> Olarenwaju Str, Timothy Bust-Stop, Iwaya Road, Yaba, Lagos. 
+              <FontAwesomeIcon icon={faMapLocationDot} className='location-icon' />  Olarenwaju Str, Timothy Bust-Stop, Iwaya Road, Yaba, Lagos. 
           </li>
           <li>
-                <i class="fa-solid fa-phone"></i> Phone:  +2348033334808. 
+              <FontAwesomeIcon icon={faPhone} className='phone-icon' />  Phone:  +2348033334808. 
           </li>
           <li>
-          <i class="fa-solid fa-envelope"></i> Email: mountaintopschoolz@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} className='email-icon'/>  Email: mountaintopschoolz@gmail.com
           </li>
         </ul>
      </div>
