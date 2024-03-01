@@ -13,6 +13,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 10%;
+    color: #E447FA;
 }
 .carousel1{
     size: 200%;
@@ -31,9 +32,11 @@
 }
 .calendar-section{
   text-align: center;
+  color: #E447FA;
 }
 .academic-section{
   text-align: center;
+
 }
 .academic-text{
   text-align: center;
@@ -125,5 +128,5 @@ body {font-family: Verdana, sans-serif;}
   padding: 5%;
 }
 .testimonial-heading{
-  color: #9370DB;
+  color: #E447FA;
 }

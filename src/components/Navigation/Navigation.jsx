@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../Navigation/Navigation.css";
+import "./Navigation.css";
 
 function Navigation() {
   return (
@@ -27,7 +27,6 @@ function Navigation() {
               <NavDropdown.Item as={Link} to="/news">News</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/calendar">Academic Calendar</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/events">Events</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/teachers">Our Teachers</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/Login">Login</Nav.Link>
             <Nav.Link as={Link} to="/Gallery">Gallery</Nav.Link>

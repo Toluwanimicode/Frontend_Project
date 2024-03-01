@@ -29,11 +29,11 @@ const MyFooter = () => {
     },
     schoolName: {
       fontSize: '1.5rem',
-      color: '#333',
+      color: '#E447FA',
       marginBottom: '5px', // Add margin for spacing between school name and copyright text
     },
     copyrightText: {
-      color: '#333',
+      color: '#E447FA',
     },
     socialIcons: {
       display: 'flex',

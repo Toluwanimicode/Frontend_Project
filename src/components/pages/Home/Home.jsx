@@ -38,34 +38,17 @@ const Home = () => {
               <img src={"./images/Gallery/proprietress.jpg"} alt="Propietress picture" />
             </div>
         </div>
-
-        <div></div>
-
-          
-          {/* <div className='head'>
-            <h1>We have faith in our student future</h1>
-            <p>Our students are talented, hard-working and ufll of good ideas. We encourage and empower them to bring their ideas to life. Hands-on opporutnities are what we're all about</p>
-          </div>
-       */}
           <div>
             <h1></h1>
             <p></p>
           </div>
-
-          {/* <div className='medal-section'>
-              <img  className='medal-img' src={"./images/medal.png"} alt="medal" />
-              <h1>Our students are talented,</h1>
-              <p>passionate, hard-working and full of good ideas</p>
-              <Button style={buttonStyle} >Learn More</Button>
-          </div> */}
-
+          
            <div className='academic section'>
               <h4 className='calendar-section'>Academic Calendar</h4>
               <div className='academic-text'>
                     <p>Stay informed about important dates and events throughout the school year with our Academic Calendar,</p>
                     <p> ensuring you never miss a moment of academic and extracurricular excellence.</p>
               </div>    
-
               <div>
                 <div className='calendar-container'>
                   <div className="month">

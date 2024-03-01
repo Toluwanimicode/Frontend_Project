@@ -9,6 +9,8 @@ import Admission from './components/pages/Admission/Admission'
 import LoginForm from './components/pages/Login/Login'
 import MyFooter from './components/Footer/Footer'
 import Navigation from './components/Navigation/Navigation'
+import EventPage from './components/pages/EventsPage/Events'
+
 
 
 
@@ -28,6 +30,7 @@ return (
               <Route path="/aboutUs" element={<About />} />
               <Route path="/Admission" element={<Admission />} />
               <Route path="/Login" element={<LoginForm />} />
+              <Route path="/events" element={<EventPage />} />
             </Routes>
       </div>  
       <div>

@@ -2,17 +2,20 @@
     background-color: #E447FA;
 }
 .contact{
-    color: #6a0dad;
+    color: #E447FA;
 }
 .map{
     margin-left: 30%;
 }
 .phone-icon{
-    color: #6a0dad;
+    color: #E447FA;
+    margin-right: 20px;
 }
 .location-icon{
-    color: #6a0dad;
+    color: #E447FA;
+    margin-right: 20px;
 }
 .email-icon{
-    color: #6a0dad;
+    color: #E447FA;
+    margin-right: 20px;
 }
