@@ -5,8 +5,8 @@ import './SchoolAnthem.css';
 const SchoolAnthem = () => {
   return (
     <>
-      <div className='container stanza'>
-          <div >
+      <div className='container stanza' class="flex-col" >
+          <div class="ml-10 mb-10" >
             <h2 className='span'>Stanza one</h2>
             <p> O Mountain Top School,</p>
             <p>Citadel of excellence</p>
@@ -22,7 +22,7 @@ const SchoolAnthem = () => {
             <p>We'll always</p>
             <p>Lead the rest</p>
           </div>
-          <div className='stanza2'>
+          <div className='stanza2' class="ml-10 mb-10" >
             <h2 className='span'>Stanza two</h2>
             <p> O Mountain Top School,</p>
             <p>We have a mission</p>
@@ -40,7 +40,7 @@ const SchoolAnthem = () => {
       </div>
 
 
-      <div className='container'>
+      <div className='container' class="ml-10 mb-10" > 
         <h1 className='motto'>Motto</h1>
         <p>Goodliness with Excellence is Hardwork</p>
       </div>

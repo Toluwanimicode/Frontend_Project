@@ -3,13 +3,15 @@
 }
 .about-intro{
     text-align: center;
-    background: #E3D1F3;
-  
+    color: #E447FA;
 }
 .about-image{
     margin-top: 20%;
-  }
+}
 .card-about{
     margin-left: 15%;
     margin-top: 5%;
+}
+.about-heading{
+    color: #E447FA;
 }

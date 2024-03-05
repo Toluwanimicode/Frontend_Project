@@ -34,8 +34,8 @@ const Home = () => {
                Efforts and commitments of our teachers and pupils towards acheiving all round outstading success is extraordinary.
                We are rest assured that wherever opportunites open up for them, they will excel, as they have th epotentials to rise above their fellows.</p>
             </div>
-            <div className='prop-image'>
-              <img src={"./images/Gallery/proprietress.jpg"} alt="Propietress picture" />
+            <div className='prop-image'  >
+              <img class=" " src={"./images/Gallery/proprietress.jpg"} alt="Propietress picture" />
             </div>
         </div>
           <div>
@@ -45,12 +45,12 @@ const Home = () => {
           
            <div className='academic section'>
               <h4 className='calendar-section'>Academic Calendar</h4>
-              <div className='academic-text'>
+              <div className='academic-text' class="text-center mt-2" >
                     <p>Stay informed about important dates and events throughout the school year with our Academic Calendar,</p>
                     <p> ensuring you never miss a moment of academic and extracurricular excellence.</p>
               </div>    
               <div>
-                <div className='calendar-container'>
+                <div className='calendar-container' class="w-80 h-13 ml-10 mt-2" >
                   <div className="month">
                         <ul>
                           <li>February</li>
@@ -103,11 +103,11 @@ const Home = () => {
           </div>
         <section className='testimonial'>
           <div>
-            <h1 className='testimonial-heading'>Testimonials</h1>
+            <h1 className='testimonial-heading' class="mb-2" >Testimonials</h1>
             <div>
               <article>
                 <div>
-                  <p> Mountain Top is home away from home for my kids.The Teachers are so amazing and the learning environment is second to none</p>
+                  <p class="mb-2" > Mountain Top is home away from home for my kids.The Teachers are so amazing and the learning environment is second to none</p>
                   <h3 className='testimonial-heading'>Parents</h3>
                 </div>
               </article>

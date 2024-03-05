@@ -26,7 +26,7 @@ const EventPage = () => {
 
       {/* Display content based on the current page */}
       {currentPage === 1 && (
-        <div className='card-event'>
+        <div className='card-event ' class="space-y-4 ml-16 mt-3" >
             <Card2  
               Title={"Sports Day"}
               Text={"To reinforce our belief that physical education is a part of the curriculum and important for life skills we host an annual inter-team sports day."}
@@ -42,8 +42,8 @@ const EventPage = () => {
       )}
 
       {currentPage === 2 && (
-        <div className='card-event'>
-          <Card2 
+        <div className='card-event' class="space-y-4 ml-16 mt-3">
+          <Card2  
             Text={"Join us on Cultural Day as we celebrate the rich tapestry of diversity within our school community, showcasing the vibrant traditions, customs, and heritage that make our educational journey a harmonious mosaic of cultures"}
             Title={"Cultural Day"}
             Subtitle={"6 October 2024"}
@@ -57,7 +57,7 @@ const EventPage = () => {
       )}
 
       {currentPage === 3 && (
-        <div className='card-event'>
+        <div className='card-event' class="space-y-4 ml-16 mt-3">
           <Card2 
             Title={"End of the year party"}
             Text={"As the school year draws to a close, join us in celebrating achievements, milestones, and unforgettable memories at our End of the Year Party—a joyous occasion filled with laughter, camaraderie, and the anticipation of exciting adventures in the coming academic year."}
@@ -72,7 +72,7 @@ const EventPage = () => {
       )}
 
       {/* Previous Page Arrow */}
-      <div className='navigation'>
+      <div className='navigation' class="mt-4">
         <button
           onClick={goToPreviousPage}
           style={{

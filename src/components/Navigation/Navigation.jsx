@@ -9,9 +9,9 @@ function Navigation() {
   return (
     <Navbar expand="lg" className='nav'>
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand class="flex" as={Link} to="/">
           <img className="image" src={"./images/Gallery/Logo.png"} alt="School Logo" width="500" height="600" />
-          MountainTop Schools
+          <h1 class="mt-4 ml-4 text-xl text-maincolor">Montain Top Schools</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -25,7 +25,6 @@ function Navigation() {
             <Nav.Link as={Link} to="/Admission">Admission</Nav.Link>
             <NavDropdown title="Academics" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/news">News</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/calendar">Academic Calendar</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/events">Events</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/Login">Login</Nav.Link>
