@@ -9,10 +9,11 @@ function Navigation() {
   return (
     <Navbar expand="lg" className='nav'>
       <Container>
-        <Navbar.Brand class="flex" as={Link} to="/">
-          <img className="image" src={"./images/Gallery/Logo.png"} alt="School Logo" width="500" height="600" />
-          <h1 class="mt-4 ml-4 text-xl text-maincolor">Montain Top Schools</h1>
-        </Navbar.Brand>
+      <Navbar.Brand className="info-school flex items-center" as={Link} to="/">
+            <img className="image" src={"./images/Gallery/Logo.png"} alt="School Logo" width="50" height="60" />
+            <h1 className="ml-2 text-xl">Mountain Top Schools</h1>
+      </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar">
