@@ -57,9 +57,6 @@ const Home = () => {
               <div style={{ width: '50%', marginRight: '10px' }}>
                 <iframe width="250" height="150" src="https://www.youtube.com/embed/ffBOVZkNh64?si=diTG7UK69NHfUS17" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
-              <div style={{ width: '50%' }}>
-                <iframe width="250" height="150" src="https://www.youtube.com/embed/Da5L_7jvgSc?si=Lav-pYfTXzmIzQpw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-              </div>
         </div>
 
         </div>
