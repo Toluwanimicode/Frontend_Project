@@ -15,3 +15,69 @@
 .about-heading{
     color: #E447FA;
 }
+.about-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-wrapper {
+    position: relative;
+}
+.picture{
+    max-width: 100%; /* Adjust the maximum width of the image */
+    max-height: 300px; /* Adjust the maximum height of the image */
+}
+
+.since-box {
+    position: absolute;
+    top: 10px; /* Adjust the top position of the since box */
+    left: 10px; /* Adjust the left position of the since box */
+    background-color: #007bff; /* Set background color of the since box */
+    color: #fff; /* Set text color of the since box */
+    padding: 5px 10px; /* Adjust padding of the since box */
+    border-radius: 5px; /* Add border-radius to the since box */
+    font-size: 12px; /* Adjust font size of the since box */
+}
+.vision{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #750b88;
+    margin-top: 20px;
+}
+.mission{
+    color: #750b88;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    flex: 0 0 auto; /* Don't allow the image to grow */
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1; /* Allow the text to grow */
+  }
+  
+  .text-container > div {
+    margin-bottom: 20px; /* Add margin between headings and paragraphs */
+  }
+  
+  .vision,
+  .mission {
+    text-align: center;
+  }
+
+
+

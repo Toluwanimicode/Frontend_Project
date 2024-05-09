@@ -18,7 +18,7 @@ function Contact() {
   return (
     <>
        <div className='container'>
-          <h1 className='contact' class="mt-2 mb-2" > Contact Us</h1>
+          <h1 className='contact ' class="mt-2 mb-2 text-shadeofpurple text-xl font-semibold" > Contact Us</h1>
           <p>Feel free to walk into any of our centers accross Lagos and Ogun state. Call or Email us at any time and we will surely respond. You can also reach us by filling the contact form below. We look forward to hearing from you. Thank you! </p>
        </div>
         <div  class="mt-10 ml-5 w-75" >
@@ -61,13 +61,13 @@ function Contact() {
         <h3 className='contact' class="mb-2" >Contact Informations</h3>
         <ul>
           <li>
-              <FontAwesomeIcon icon={faMapLocationDot} className='location-icon' />  Olarenwaju Str, Timothy Bust-Stop, Iwaya Road, Yaba, Lagos. 
+              <FontAwesomeIcon icon={faMapLocationDot} className='location-icon text-shadeofpurple text-xl font-semibold' />  Olarenwaju Str, Timothy Bust-Stop, Iwaya Road, Yaba, Lagos. 
           </li>
           <li>
-              <FontAwesomeIcon icon={faPhone} className='phone-icon' />  Phone:  +2348033334808. 
+              <FontAwesomeIcon icon={faPhone} className='phone-icon text-shadeofpurple text-xl font-semibold' />  Phone:  +2348033334808. 
           </li>
           <li>
-              <FontAwesomeIcon icon={faEnvelope} className='email-icon'/>  Email: mountaintopschoolz@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} className='email-icon text-shadeofpurple text-xl font-semibold'/>  Email: mountaintopschoolz@gmail.com
           </li>
         </ul>
      </div>

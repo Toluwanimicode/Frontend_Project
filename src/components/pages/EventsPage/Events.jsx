@@ -20,7 +20,7 @@ const EventPage = () => {
 
   return (
     <div className='events'>
-      <div className='intro-event'>
+      <div className='text-shadeofpurple text-xl font-semibold'>
         <h2>Events</h2>
       </div>
 
@@ -76,7 +76,7 @@ const EventPage = () => {
         <button
           onClick={goToPreviousPage}
           style={{
-            backgroundColor: '#E447FA',
+            backgroundColor: '#9B1DD0',
             borderRadius: '50%', // Make it a perfect circle
             width: '40px', // Set width and height to the same value
             height: '40px',
@@ -93,7 +93,7 @@ const EventPage = () => {
         <button
           onClick={goToNextPage}
           style={{
-            backgroundColor: '#E447FA',
+            backgroundColor: '#9B1DD0',
             borderRadius: '50%', // Make it a perfect circle
             width: '40px', // Set width and height to the same value
             height: '40px',

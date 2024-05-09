@@ -15,7 +15,7 @@ const Admission = () => {
   return (
     <div>
         <div className='container'>
-            <h1 className='admission-intro'>Welcome to Our Admission Page</h1>
+            <h1 className='text-shadeofpurple text-xl font-semibold'>Admission Page</h1>
             <p>Discover the pathway to educational excellence at Mountain Top Schools. We are delighted that you are considering joining our vibrant community. Our admission process is designed to be seamless and welcoming, ensuring a smooth transition for both students and their families.</p>
         </div>
         <div>

@@ -7,7 +7,7 @@ const SchoolAnthem = () => {
     <>
       <div className='container stanza' class="flex-col" >
           <div class="ml-10 mb-10" >
-            <h2 className='span'>Stanza one</h2>
+            <h2 className='text-shadeofpurple text-xl font-semibold'>Stanza one</h2>
             <p> O Mountain Top School,</p>
             <p>Citadel of excellence</p>
             <p>Mountain Top School</p>
@@ -23,7 +23,7 @@ const SchoolAnthem = () => {
             <p>Lead the rest</p>
           </div>
           <div className='stanza2' class="ml-10 mb-10" >
-            <h2 className='span'>Stanza two</h2>
+            <h2 className='text-shadeofpurple text-xl font-semibold'>Stanza two</h2>
             <p> O Mountain Top School,</p>
             <p>We have a mission</p>
             <p>Mountain Top School</p>
@@ -41,7 +41,7 @@ const SchoolAnthem = () => {
 
 
       <div className='container' class="ml-10 mb-10" > 
-        <h1 className='motto'>Motto</h1>
+        <h1 className='text-shadeofpurple text-xl font-semibold'>Motto</h1>
         <p>Goodliness with Excellence is Hardwork</p>
       </div>
     </>

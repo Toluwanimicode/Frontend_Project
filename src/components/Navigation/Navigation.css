@@ -1,16 +1,10 @@
 .nav-link{
-    color: #E447FA;
+    color: #000000; 
     font-size: 20px;
-  }
-  .navbar-brand{
+}
+.navbar-brand{
     color: #E447FA; 
-  }
-  .nav-link:hover {
-    color: #E447FA;
-    background-color: #d1b2eb /* Darker purple for hover state */;
-    border-radius: 8px;
-  }
-  
+}
   .nav-link.active {
     color: #E447FA; /* Darker purple for active state */
   }
@@ -20,4 +14,10 @@
   .image{
     width: 100px;
     height: 100px;
+}
+.text-brand{
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 600;
+  
 }
