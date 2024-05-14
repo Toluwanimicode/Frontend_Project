@@ -5,7 +5,7 @@ import './SchoolAnthem.css';
 const SchoolAnthem = () => {
   return (
     <>
-      <div className='container stanza' class="flex-col" >
+      <div className='container stanza  flex-col lg:flex-row'  >
           <div class="ml-10 mb-10" >
             <h2 className='text-shadeofpurple text-xl font-semibold'>Stanza one</h2>
             <p> O Mountain Top School,</p>
@@ -22,7 +22,7 @@ const SchoolAnthem = () => {
             <p>We'll always</p>
             <p>Lead the rest</p>
           </div>
-          <div className='stanza2' class="ml-10 mb-10" >
+          <div className='stanza2' class="ml-10 mb-10 lg:ml-96" >
             <h2 className='text-shadeofpurple text-xl font-semibold'>Stanza two</h2>
             <p> O Mountain Top School,</p>
             <p>We have a mission</p>
@@ -40,7 +40,7 @@ const SchoolAnthem = () => {
       </div>
 
 
-      <div className='container' class="ml-10 mb-10" > 
+      <div className='container' class="ml-10 mb-10 lg:ml-20" > 
         <h1 className='text-shadeofpurple text-xl font-semibold'>Motto</h1>
         <p>Goodliness with Excellence is Hardwork</p>
       </div>
